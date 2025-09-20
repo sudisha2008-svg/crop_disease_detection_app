@@ -27,7 +27,7 @@ def predict_disease(image):
 # -----------------------------
 st.set_page_config(page_title="🌾 Crop Disease Detection", layout="wide")
 
-st.title("🌾sudisha designed Crop Disease Detection & Advisory Dashboard")
+st.title("🌾Crop Disease Detection & Advisory Dashboard")
 st.markdown("Upload a leaf image to detect crop disease and get treatment advice. "
             "⚠️ *This is a demo template. Replace with your own trained model for real predictions.*")
 
@@ -67,4 +67,5 @@ if show_history and "history" in st.session_state:
 # Footer
 st.markdown("---")
 st.caption("⚠️ Educational demo only. Not a medical/agriculture diagnostic tool.")
+
 
